@@ -1,0 +1,35 @@
+/*!
+ * Sidebar MENU v1.0.0 
+ *
+ * Created by @Julio Alcantara 
+ * Licensed under MIT
+ */
+
+$btn-color: #0a5275;
+$background-btn-color: #042331;
+$background-primary-color: #042331;
+$background-secondary-color: #063146;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ /**
+  *  Components
+  **/
+ @import "components/sidebar";
+
+ /**
+  *  Sections of the portal
+  **/
+ @import "sections/home";
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
